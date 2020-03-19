@@ -49,3 +49,19 @@ master <---- feature/dog-class
  4.2 fetch branch into local to test offline (optional)
  4.3 approve the pull request
 //5. merge to master 
+
+
+//Resolve conflict
+When will conflict happen?
+	1. Changing the same file + same line
+	2. A deleted file X, B modified fileX
+
+Method 1:
+	1.using 'git rebase'
+	2. Resolve conflict
+	3. Push again with -f
+
+Method 2:
+	1. Merge updated master to feature branch
+	2. Resolve conflict
+	3. Commit and push
