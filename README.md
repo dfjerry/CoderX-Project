@@ -29,3 +29,10 @@ master <---- feature/dog-class
 //git reset --hard <to_commit>
 
 //git revert <commit>
+
+//.gitignore
+
+//git config --global credential.helper store
+//git config --global credential.helper "cache --timeout = 18000"
+
+//google "gnome-keyring" git ssh -- dung ubuntu
