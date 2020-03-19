@@ -36,3 +36,13 @@ master <---- feature/dog-class
 //git config --global credential.helper "cache --timeout = 18000"
 
 //google "gnome-keyring" git ssh -- dung ubuntu
+
+//git clone
+//git pull
+
+//Pull request
+//1. git checkout -b <feature_branch> (branching)
+//2. git push origin <branch>
+//3. create a pull request on Github
+//4. Review code
+//5. merge to master 
